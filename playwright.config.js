@@ -3,7 +3,7 @@ require('dotenv').config();
 const config = {
   // testDir: 'specs',
   // timeout: 60000,
-  workers: 1,
+  //workers: 1,
   globalSetup: require.resolve('./global-setup'),
   globalTeardown: require.resolve('./global-teardown'),
   use: {
