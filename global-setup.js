@@ -5,7 +5,8 @@ module.exports = async () => {
   const lt = new LT();
   const options = {
     user: 'varunkumarb',
-    key: 'GhGShOYHz1jODWE9qDvkJK4nPDR3n2lc0gNp9VknalhwtUineG'
+    key: 'GhGShOYHz1jODWE9qDvkJK4nPDR3n2lc0gNp9VknalhwtUineG',
+    logFile: '/.lambdatest/logs.txt'
   };
 
   await new Promise((resolve, reject) => {
