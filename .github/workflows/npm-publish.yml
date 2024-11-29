@@ -35,4 +35,4 @@ jobs:
 
       # Step 6: Run Playwright tests
       - name: Run Playwright tests
-        run: npx playwright test && cat /.lambdatest/log.txt
+        run: npx playwright test && ls && cat /.lambdatest/log.txt
