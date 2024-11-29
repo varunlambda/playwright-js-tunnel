@@ -4,8 +4,8 @@ require('dotenv').config();
 module.exports = async () => {
   const lt = new LT();
   const options = {
-    user: process.env.LT_USERNAME,
-    key: process.env.LT_ACCESS_KEY
+    user: 'varunkumarb',
+    key: 'GhGShOYHz1jODWE9qDvkJK4nPDR3n2lc0gNp9VknalhwtUineG'
   };
 
   await new Promise((resolve, reject) => {
