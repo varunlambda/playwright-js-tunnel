@@ -36,16 +36,3 @@ jobs:
       # Step 6: Run Playwright tests
       - name: Run Playwright tests
         run: npx playwright test
-
-      - name: Upload node_modules
-        uses: actions/upload-artifact@v3
-        with:
-          name: node-modules
-          path: node_modules
-
-      - name: Create .lambdatest file
-        run: |
-           echo "{ \"user\": \"varunkumarb\", \"key\": \"GhGShOYHz1jODWE9qDvkJK4nPDR3n2lc0gNp9VknalhwtUineG\" }" > .lambdatest
-
-      - name: Start LambdaTest Tunnel
-        run: node your-tunnel-start-script.js
