@@ -26,8 +26,8 @@ const config = {
             platform: 'Windows 10',
             tunnel: true,
             build:'Playwright-Tunnel - One',
-            user: process.env.LT_USERNAME,
-            accessKey: process.env.LT_ACCESS_KEY,
+            user: 'varunkumarb',
+            accessKey: 'GhGShOYHz1jODWE9qDvkJK4nPDR3n2lc0gNp9VknalhwtUineG',
           },
         })
       )}`
